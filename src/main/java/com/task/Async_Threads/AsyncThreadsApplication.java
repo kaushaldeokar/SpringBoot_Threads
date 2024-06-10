@@ -9,13 +9,6 @@ public class AsyncThreadsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AsyncThreadsApplication.class, args);
-
-
-		MyThreads t1 = new MyThreads();
-		// this will call run() method
-		// we can call this also by loop and create 100 threads //
-		t1.start();
-
 	}
 
 }
